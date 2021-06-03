@@ -13,3 +13,9 @@ In here, I got each song's audio analysis using the Spotipy API for my top 300 t
 
 # FinalSongData
 This is my final song data ready for analysis.
+
+# Final Dataset and Basic EDA
+In this notebook, I do some basic EDA and visualization on the data prepared above.
+
+# Clustering My Top Songs Spotify
+In this notebook, I perform KMeans Clustering on my data to find natural clusterings for my top 300 tracks.
