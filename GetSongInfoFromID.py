@@ -8,8 +8,8 @@ import json
 from pprint import pprint
 
 spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-	client_id='9c6a8972ab4448a8a8a7a13b8311dd94', 
-	client_secret='911862d3fa41472da3a7577d30ff5f63'))
+	client_id='', 
+	client_secret=''))
 
 df = pd.read_csv('Top100TrackWithIDNoPlayCount.csv')
 
