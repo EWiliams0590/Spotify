@@ -28,7 +28,7 @@ def create_df(files, N):
     track_counts = track_counts.rename({0: 'Play Count'}, axis=1)
     counts_final = track_counts[track_counts['Play Count']>=N]
     
-    counts_final.to_csv('ArtistTracksPlayCount.csv')
+    counts_final.to_csv('ArtistTracksPlayCount.csv', index=False)
     final = counts_final.drop('Play Count', axis=1)
     return final
     
