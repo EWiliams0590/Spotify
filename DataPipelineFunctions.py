@@ -14,7 +14,7 @@ def create_df(files, N):
     
     Returns
     -------
-    Writes artist, song, and play count data to csv.
+    Writes artist, song, and play count data to ArtistTracksPlayCount.csv.
     returns dataframe with just artist and song.
     """
     dfs = []
