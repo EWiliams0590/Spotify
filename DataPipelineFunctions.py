@@ -1,4 +1,4 @@
-### Functions to turn Spotify streaming data into 
+### Functions to turn Spotify streaming data into audio analysis for songs with at least N plays
 
 import spotipy
 import sys
