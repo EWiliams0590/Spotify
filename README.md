@@ -1,13 +1,20 @@
 # Spotify Cluster and Recommender
-I obtained my Spotify streaming data over the course of a year. By using Spotipy, I got the audio analysis for all songs listened to at least 10 times throughout the dataset.
-
-I proceeded to run kmeans clustering to cluster the data.
-
-Once the clustering model was trained, I predicted on the dataset "Spotify Dataset 1922-2021, ~600k Tracks" by Yamac Eren Ay on Kaggle.
-
-From the predictions, I got the 500 closest songs to a cluster center and automated adding them to my Spotify playlist.
-
-### Results
-As I discussed in the EDA notebook above, I had some reservations about how Spotify figured out the audio analysis data, but I am pleasantly surprised by the results. I have found many songs by bands that I have never heard of that I enjoy.
-
+## Motivation
+I was interested in finding music similar to my tastes that I have never heard. I find that Spotify's recommended playlists are either just songs I already have or by the artists I already listen to, but I wanted something more.
+## Requirements
+## Notebooks and .py Scripts
+  * [Helper Functions For Getting Audio Features](https://github.com/EWiliams0590/Spotify/blob/main/DataPipelineFunctions.py)
+  * [Get Dataframe with Audio Features and Song Info](https://github.com/EWiliams0590/Spotify/blob/main/GetSongDataFinal.py)
+  * [Analysis and Visualization](https://github.com/EWiliams0590/Spotify/blob/main/Final%20Dataset%20and%20Basic%20EDA.ipynb)
+  * [Clustering Model](https://github.com/EWiliams0590/Spotify/blob/main/Clustering%20My%20Top%20Songs%20Spotify.ipynb)
+  * [Data Collection for Recommended Playlist](https://github.com/EWiliams0590/Spotify/blob/main/GetSongDataFromSearch.py)
+  * [Playlist Creator](https://github.com/EWiliams0590/Spotify/blob/main/GetPlaylist.py)
+## Tools
+### APIs
+  * [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+### Python Libraries
+  * Pandas, Numpy - data analysis
+  * Matplotlib, Seaborn - data visualization
+  * Sci-Kit Learn - KMeans Clustering
+  * Spotipy - access to Spotify Web API
 
