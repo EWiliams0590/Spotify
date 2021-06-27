@@ -1,7 +1,9 @@
 # Spotify Cluster and Recommender
+
 ## Motivation
 I was interested in finding music similar to my tastes that I have never heard. I find that Spotify's recommended playlists are either just songs I already have or by the artists I already listen to, but I wanted something more.
 
+### Process
 After obtaining my streaming data from Spotify, I setup a pipeline to transform this into a dataframe with audio features for each song. I think performed some data analysis and visualizations on the audio features provided by Spotify. 
 
 I then trained a KMeans clustering model on the audio features. Then, I created a pipeline to get the top 1000 songs (based on Spotify search function) from many years (1960-2009 currently) for many genres of music I like to listen to, transformed this data into it's audio features, and used the KMeans model to predict which cluster these songs go in. 
