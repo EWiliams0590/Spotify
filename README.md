@@ -2,6 +2,7 @@
 ## Motivation
 I was interested in finding music similar to my tastes that I have never heard. I find that Spotify's recommended playlists are either just songs I already have or by the artists I already listen to, but I wanted something more.
 ## Requirements
+  * [Requirements](https://github.com/EWiliams0590/Spotify/blob/main/requirements.txt)
 ## Notebooks and .py Scripts
   * [Helper Functions For Getting Audio Features](https://github.com/EWiliams0590/Spotify/blob/main/DataPipelineFunctions.py)
   * [Get Dataframe with Audio Features and Song Info](https://github.com/EWiliams0590/Spotify/blob/main/GetSongDataFinal.py)
