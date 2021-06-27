@@ -44,8 +44,7 @@ def get_song_ids(spotify, artist_song_counts_df):
     """
     Parameters
     ----------
-    client_id : client_id from Spotify Developer API
-    client_secret :client_secret from Spotify Developer API
+    spotify :  spotify developer authorization manager
     artist_song_dict : Dict with keys as artists and songs as the values.
 
     Returns
@@ -75,8 +74,7 @@ def get_audio_analysis(spotify, artist_song_counts_df):
     """
     Parameters
     ----------
-    client_id : client_id from Spotify Developer API
-    client_secret :client_secret from Spotify Developer API
+    spotify :  spotify developer authorization manager
     artist_song_df : pandas dataframe with columns (artistName, trackName, id)
 
     Returns
