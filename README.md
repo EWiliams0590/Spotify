@@ -14,8 +14,8 @@ I was interested in finding music similar to my tastes that I have never heard. 
 ### APIs
   * [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 ### Python Libraries
-  * Pandas, Numpy - data analysis
-  * Matplotlib, Seaborn - data visualization
-  * Sci-Kit Learn - KMeans Clustering
-  * Spotipy - access to Spotify Web API
+  * [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/) - data analysis
+  * [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/index.html) - data visualization
+  * [Sci-Kit Learn](https://scikit-learn.org/stable/index.html) - KMeans Clustering
+  * [Spotipy](https://spotipy.readthedocs.io/en/2.18.0/) - access to Spotify Web API
 
