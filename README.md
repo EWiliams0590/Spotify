@@ -18,4 +18,3 @@ I was interested in finding music similar to my tastes that I have never heard. 
   * [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/index.html) - data visualization
   * [Sci-Kit Learn](https://scikit-learn.org/stable/index.html) - KMeans Clustering
   * [Spotipy](https://spotipy.readthedocs.io/en/2.18.0/) - access to Spotify Web API
-
