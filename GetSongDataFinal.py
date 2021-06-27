@@ -12,8 +12,8 @@ def get_song_data_for_analysis(files, N, spotify, filename):
     ----------
     files : files where streaming data comes from
     N : minimum number of play count
-    client_id :  client_id from spotify developer api
-    client_secret : client_secret from spotify developer api
+    spotify :  spotify developer authorization manager
+    filename : filename to write final dataframe
 
     Returns
     -------
